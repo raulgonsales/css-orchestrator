@@ -1,2 +1,2 @@
-# css-orchestrator
-CSS styles manager
+# CSS orchestrator
+
