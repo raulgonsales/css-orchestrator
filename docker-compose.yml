@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  php:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    container_name: css-orchestrator-php
+    env_file:
+      - .env
+    volumes:
+      - .:/var/www
+      - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+  nginx:
+    image: nginx:alpine
+    container_name: css-orchestrator-nginx
+    ports:
+      - "9001:80"
+    volumes:
+      - ./:/var/www
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
