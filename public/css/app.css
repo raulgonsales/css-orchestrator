@@ -115,3 +115,42 @@ footer {
 section.main {
     padding: 10px;
 }
+
+#final_css:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.final-css-block {
+    width: 50%;
+    float: left;
+}
+
+.final-styles pre,
+.final-styles code {
+    padding: 0;
+;
+}
+
+.final-styles .code-wrapper {
+    border: 1px solid #999999;
+    border-radius: 5px;
+    font-size: 17px;
+    height: 300px
+}
+
+.css-code-block {
+    border-bottom: 1px dashed #1a202c;
+    padding: 5px;
+}
+
+.css-code-block:hover {
+    background-color: #e6e7e9;
+}
+
+.css-code-block:last-child {
+    border: none;
+}

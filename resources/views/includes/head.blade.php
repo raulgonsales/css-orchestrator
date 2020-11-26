@@ -23,5 +23,12 @@
 
     <link rel="stylesheet" href="{{asset('css/libs/bootstrap-select/bootstrap-select.min.css')}}">
     <script defer src="{{asset('js/libs/bootstrap-select/bootstrap-select.min.js')}}" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="{{asset('css/libs/default.css')}}">
+    <script src="{{asset('js/libs/highlight.pack.js')}}"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+
     <script defer src="{{asset('js/scripts.js')}}" type="text/javascript"></script>
 </head>

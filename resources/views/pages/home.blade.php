@@ -1,4 +1,30 @@
 @extends('layouts.default')
 @section('content')
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi est facilis illo ipsa minima, rem repellat tempore. Blanditiis commodi, inventore maxime quas repellendus tempora unde ut veritatis, vitae voluptate voluptates?
+    <div id="final_css">
+        <p>Final css styles:</p>
+        <div class="css-preview final-css-block">
+            <div class="final-styles">
+                <pre>
+                    <code class="css code-wrapper"><div class="css-code-block">.test,
+.hljs-subst {
+    color: #444;
+}</div><div class="css-code-block">.test,
+.hljs-subst {
+    color: #444;
+}</div><div class="css-code-block">.test,
+.hljs-subst {
+    color: #444;
+}</div><div class="css-code-block">.test,
+.hljs-subst {
+    color: #444;
+}</div><div class="css-code-block">.test,
+.hljs-subst {
+    color: #444;
+}</div>
+                    </code>
+                </pre>
+            </div>
+        </div>
+        <div class="final-css-control final-css-block">kek</div>
+    </div>
 @stop
